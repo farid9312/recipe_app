@@ -10,15 +10,6 @@ class NutritionsSubpage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: _buildBody(context),
-      resizeToAvoidBottomInset: false,
-    );
-  }
-
-  Widget _buildBody(
-    BuildContext context,
-  ) {
     final theme = Theme.of(context);
 
     return Padding(

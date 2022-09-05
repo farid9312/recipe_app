@@ -31,10 +31,7 @@ class _IngredientsSubpageState extends State<IngredientsSubpage>
   Widget build(BuildContext context) {
     super.build(context);
 
-    return Scaffold(
-      body: _buildBody(context),
-      resizeToAvoidBottomInset: false,
-    );
+    return _buildBody(context);
   }
 
   Widget _buildBody(
